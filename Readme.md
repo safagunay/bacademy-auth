@@ -2,8 +2,8 @@
 This service was created for the following purposes,  
 1- Authenticate mobile app users with their internal company accounts.  
 2- Register company users to google firebase on behalf of them to benefit firebase's notification service.  
-3- Generate firebase_token for client apps to enable them to access firebase directly.
-3- Generate access_token for client apps to authenticate them to other services(coffee,air,temprature,tea,noise services)  
+3- Generate firebase_token for client apps to enable them to access firebase directly.  
+4- Generate access_token for client apps to authenticate them to other services(coffee,air,temprature,tea,noise services)  
  
 #### Firebase Admin Sdk  
 This project requires a Firebase Admin Sdk. Admin Sdk enables full control over a firebase project like user management,
