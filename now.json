@@ -1,0 +1,29 @@
+{
+	"version": 2,
+	"scope": "borda-academy-19",
+	"env": {
+		"TOKEN_KEY": "@token_key"
+	},
+	"builds": [ { "src": "server.js", "use": "@now/node-server" } ],
+	"routes": [
+		{
+			"src": "/token",
+			"methods": [ "POST" ],
+			"dest": "server.js"
+		},
+		{
+			"src": "/verifyAccessToken",
+			"methods": [ "POST" ],
+			"dest": "server.js"
+		},
+		{
+			"src": "/",
+			"methods": [ "GET" ],
+			"dest": "server.js"
+		},
+		{
+			"src": "/(.*)",
+			"status": 404
+		}
+	]
+}

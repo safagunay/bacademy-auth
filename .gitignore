@@ -1,0 +1,6 @@
+node_modules/
+.idea
+*.lock
+*-lock.json
+.env*
+src/fbadmin/serviceAccountKey.json
